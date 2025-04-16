@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="utf-8" />
+    <title>CryptoDash</title>
+    <link type="text/css" rel="stylesheet" href="/styles/estilos.css" />
+</head>
+
+<body>
+    <article>
+        <h1>CryptoDash</h1>
+        <p>Visualize as 10 criptomoedas mais populares em tempo real, usando a API da CoinGecko.</p>
+        
+        <button onclick="dados.carregarMoedas()">Carregar Criptomoedas</button>
+        <a href="javascript: dados.emTabela();">Em tabela</a>
+        <a href="javascript: dados.emLista();">Em Lista</a>
+        <a href="javascript: dados.emDiv();">Div Originais</a>
+
+        <div id="informacao">
+            <!-- Conteúdo será inserido aqui -->
+        </div>
+    </article>
+
+    <script src="/scripts/ItemInformacao.js"></script>
+    <script src="/scripts/Informacao.js"></script>
+</body>
+
+</html>
